@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="DD_TOOL.SequenceDiagramManagement.actionSet">
+         <menu
+               id="SequenceDiagramManagement"
+               label="%menu_group"
+               path="tool/SequenceDiagramManagement">
+         </menu>
+		 <action
+			   label="%menu_label_clear"
+               icon="icons/sample.gif"
+               class="SQDManagement.ClearDataAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/SequenceDiagramManagement/"
+               id="SequenceDiagramManagement">
+         </action>
+		 <action
+			   label="%menu_label_exportSeqData"
+               icon="icons/sample.gif"
+               class="SQDManagement.ExportSeqDataAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/SequenceDiagramManagement/"
+               id="SequenceDiagramManagement">
+         </action>
+         <action
+			   label="%menu_label_importSeqData"
+               icon="icons/sample.gif"
+               class="SQDManagement.ImportSeqDataAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/SequenceDiagramManagement/"
+               id="SequenceDiagramManagement">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
